@@ -1,0 +1,35 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1A\DesignAssignment1A\Release</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1A\DesignAssignment1A\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1A\DesignAssignment1A\Release\DesignAssignment1A.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>DesignAssignment1A.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>DesignAssignment1A.map</FILE>
+  <FILE>DesignAssignment1A.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <START><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1A\DesignAssignment1A\main.asm</FILE><LINE>48</LINE></START>
+  <REG22><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1A\DesignAssignment1A\main.asm</FILE><LINE>34</LINE></REG22>
+  <REG23><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1A\DesignAssignment1A\main.asm</FILE><LINE>40</LINE></REG23>
+  <ZERO><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1A\DesignAssignment1A\main.asm</FILE><LINE>85</LINE></ZERO>
+  <CHECK_R20><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1A\DesignAssignment1A\main.asm</FILE><LINE>59</LINE></CHECK_R20>
+  <CHECK_R21><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1A\DesignAssignment1A\main.asm</FILE><LINE>64</LINE></CHECK_R21>
+  <CHECK_R22><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1A\DesignAssignment1A\main.asm</FILE><LINE>70</LINE></CHECK_R22>
+  <CHECK_R23><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1A\DesignAssignment1A\main.asm</FILE><LINE>77</LINE></CHECK_R23>
+  <END><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1A\DesignAssignment1A\main.asm</FILE><LINE>86</LINE></END>
+ </LABELS>
+</ASSEMBLER_INFO>
