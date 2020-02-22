@@ -1,0 +1,35 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1B\DA1B\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1B\DA1B\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1B\DA1B\Debug\DA1B.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>DA1B.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>DA1B.map</FILE>
+  <FILE>DA1B.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <STORE><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1B\DA1B\main.asm</FILE><LINE>20</LINE></STORE>
+  <check_div7><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1B\DA1B\main.asm</FILE><LINE>32</LINE></check_div7>
+  <LOOP_COUNTER><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1B\DA1B\main.asm</FILE><LINE>27</LINE></LOOP_COUNTER>
+  <DONE><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1B\DA1B\main.asm</FILE><LINE>72</LINE></DONE>
+  <Ndiv_7><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1B\DA1B\main.asm</FILE><LINE>59</LINE></Ndiv_7>
+  <div_7><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1B\DA1B\main.asm</FILE><LINE>48</LINE></div_7>
+  <check_div3><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1B\DA1B\main.asm</FILE><LINE>40</LINE></check_div3>
+  <Ndiv_3><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1B\DA1B\main.asm</FILE><LINE>65</LINE></Ndiv_3>
+  <div_3><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment1B\DA1B\main.asm</FILE><LINE>53</LINE></div_3>
+ </LABELS>
+</ASSEMBLER_INFO>
