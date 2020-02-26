@@ -1,0 +1,34 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment2AT2\DesignAssignment2AT2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment2AT2\DesignAssignment2AT2\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment2AT2\DesignAssignment2AT2\Debug\DesignAssignment2AT2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>DesignAssignment2AT2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>DesignAssignment2AT2.map</FILE>
+  <FILE>DesignAssignment2AT2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <DUTY_CYCLE><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment2AT2\DesignAssignment2AT2\main.asm</FILE><LINE>4</LINE></DUTY_CYCLE>
+  <IF_BUTTON><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment2AT2\DesignAssignment2AT2\main.asm</FILE><LINE>16</LINE></IF_BUTTON>
+  <DELAY_413ms><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment2AT2\DesignAssignment2AT2\main.asm</FILE><LINE>30</LINE></DELAY_413ms>
+  <DELAY_337ms><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment2AT2\DesignAssignment2AT2\main.asm</FILE><LINE>43</LINE></DELAY_337ms>
+  <DELAY_BUTTON><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment2AT2\DesignAssignment2AT2\main.asm</FILE><LINE>55</LINE></DELAY_BUTTON>
+  <L1><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment2AT2\DesignAssignment2AT2\main.asm</FILE><LINE>34</LINE></L1>
+  <L2><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment2AT2\DesignAssignment2AT2\main.asm</FILE><LINE>47</LINE></L2>
+  <L3><FILE>C:\Users\Jason\Desktop\CpE301\Lecture\DesignAssignment2AT2\DesignAssignment2AT2\main.asm</FILE><LINE>59</LINE></L3>
+ </LABELS>
+</ASSEMBLER_INFO>
