@@ -1,0 +1,63 @@
+#define BAUD 9600
+#define F_CPU 16000000UL
+#include <avr/io.h>
+#include <util/delay.h>
+#include <util/setbaud.h>
+#include <avr/interrupt.h>
+#include <stdlib.h>
+#include <stdio.h>
+
+//FUNCTION TO INITIALIZE USART
+void USART_init(void){
+	UBRR0H = UBRRH_VALUE;
+	UBRR0L = UBRRL_VALUE;
+	UCSR0C = _BV(UCSZ01) | _BV(UCSZ00); //8-BIT DATA
+	UCSR0B = _BV(RXEN0) | _BV(TXEN0);	//ENABLE RX AND TX
+}
+
+//FUNCTION THAT READS IN 1 CHAR AT A TIME
+void USART_tx_string(char*data){
+	//CONTROL ENTERS WHILE DATA REG NOT EMPTY
+	while((*data!='\0')){
+		//WAIT FOR BUFFER REGISTER TO CLEAR
+		while(!(UCSR0A & (1 << UDRE0)));
+		UDR0 = *data;//REGESTER EQUALS DATA
+		data++;//DATA MOVES POSITION
+	}
+}
+
+int main(void){
+	USART_init();//Initialize USART
+	
+	int num = 2303;//Initialize integer value
+	char char_array [16];//Character array of 16 for integer
+	char char_array2[16];//Character array of 16 for float
+	
+	while (1){
+			//Initialization of float value
+			volatile float float_value = num * 3.2;
+		
+			//To generate random number
+			num = (((num * 3) % 100) + 2);
+			itoa (num, char_array, 10);
+			
+			snprintf(char_array2,sizeof(char_array2), "%f\r\n", float_value);
+
+			//Prints string Jason Villanueva
+			USART_tx_string("Jason Villanueva");
+			USART_tx_string(" ");
+			
+			//Prints integer value
+			USART_tx_string(char_array);
+			USART_tx_string(" ");
+			
+			//Prints floating value
+			USART_tx_string(char_array2);
+			USART_tx_string("\n");
+			USART_tx_string("\n");
+			
+			_delay_ms(1000);
+
+	}
+}
+
